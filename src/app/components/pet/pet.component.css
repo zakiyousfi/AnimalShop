@@ -361,13 +361,14 @@ body {
 	r: 8;
 	stroke-width: 3;
 }
-.magnifier .handle {
-	x1: 32;
-	y1: 32;
-	x2: 44;
-	y2: 44;
-	stroke-width: 3;
-}
+.magnifier::after {
+	content: '';
+	position: absolute;
+	top: 32px;
+	left: 32px;
+	width: 12px;
+	height: 12px;
+  }
 
 
 
